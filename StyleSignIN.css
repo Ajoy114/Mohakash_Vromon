@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bdy{
+    background: linear-gradient(360deg,  #c0f329e6 0%, rgb(100, 243, 4) 100%);
+  }
+  .container {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    background-color: rgba(0, 0, 0, 0.774); 
+    background-color: rgba(0,0,0, 0.4); 
+}
+.topnav {
+    grid-row: 1/ span 1;
+    grid-column: 1/ span 4;
+    margin: 10px;
+    height: 50px;
+    
+  }
+
+  .topnav a {
+    float: right;
+    margin: 5px;
+    padding: 3px;
+    color: #feda6bfb;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+
+
+  .h:hover {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #74f3af;
+    border-radius: 15px;
+    background-color: #08773c;
+    color: #74f3af;
+    font-size: 20px;
+    
+  }
+  
+  .c:hover {
+    
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #84b7f1;
+    border-radius: 15px;
+    background-color: #064185fd;
+    color: #84b7f1;;
+    font-size: 20px;
+    
+  }
+  .s:hover {
+
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #edd280fb;
+    border-radius: 15px;
+    background-color: #8e6c05cb;
+    color: #edd280fb;
+    font-size: 20px;
+    
+  }
+
+  .r:hover {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #f47faaee;
+    border-radius: 15px;
+    background-color: #690429fd;
+    color: #f47faaee;
+    font-size: 20px;
+  }
+
+  .Img{
+    grid-row: 2/ span 2;
+    grid-column: 1/ span 2; 
+    
+  }
+  .img-B{
+    display: block;
+    height: 600px;
+    width: 510px;
+    margin-left: 200px;
+    border: 2px solid #ffc61bfb;
+    background-color: #ffc61bfb;
+    box-shadow: 1px 4px 8px 0 rgb(12, 12, 12), 1px 6px 20px 0 rgb(18, 18, 18);
+  }
+
+  .im{
+    display: block;
+    margin:30px;
+    
+  }
+  .Sign{
+    grid-row: 2/ span 2;
+    grid-column: 3/ span 2; 
+  }
+
+  .form{
+    background-color: #ffc61bfb;
+    position: relative;
+    height: 320px;
+    width: auto;
+    margin-top: 125px;
+    margin-right: 200px;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 100px;
+    box-shadow: 1px 4px 8px 0 rgb(12, 12, 12), 1px 6px 20px 0 rgb(18, 18, 18);
+}
+
+.titile {
+    position: relative;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.form1 {
+    max-width: auto;
+    overflow:  hidden;
+}
+
+.form-control {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.form-control input {
+    border: 1px solid transparent;
+    border-bottom-color: #a17b00;
+    background-color: #f8d04d;
+    color: rgb(0, 0, 0);
+    border-radius: 0;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.sbm{
+    background-image: linear-gradient(270deg, #534000, #534000);
+    border: 2px solid linear-gradient(270deg, #ffc609, #ffc403);
+    border-radius: 15px;
+    color: #f8d04d;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    font-weight: bold;
+
+}
+
+.sbm:hover {
+  border: 5px solid linear-gradient(270deg, #534000, #534000);
+  background-image: linear-gradient(270deg, #f8d04d, #f8d04d);
+  color: #534000;
+  
+}
+
+::placeholder {  
+  color: #a17b00; 
+  opacity: 1;  
+}
+.new{
+  margin: 0%;
+  padding: 0%;
+  height: 20px;
+  width: auto;
+  text-align: center;
+  font-size: 20px;
+  color: #534000;
+}
+.new:hover {
+  font-weight: bold;
+  color: #5a4205;
+  
+}
+
+.footer{
+  grid-row: 3/ span 1;
+  grid-column: 1/ span 4; 
+}
+.ftr{
+margin-top: 670px;
+margin-bottom: 0%;
+margin-left: 0%;
+margin-right: 0%;
+padding: 0%;
+height: 300px;
+width: 100%;
+background-color: #000000fb;
+box-shadow: 1px 4px 8px 0 rgb(12, 12, 12), 1px 6px 20px 0 rgb(18, 18, 18);
+}
+.card1{
+float: left;
+margin-top: 5px;
+margin-left: 100px;
+padding: 0%;
+height: 150px;
+width: 500px;
+
+}
+.card2{
+float: left;
+margin-top: 5px;
+margin-left: 50px;
+padding: 0%;
+height: 150px;
+width: 500px;
+
+}
+.card3{
+float: left;
+margin-top: 5px;
+margin-left: 50px;
+padding: 0%;
+height: 150px;
+width: 500px;
+
+}
+.ti1{
+margin: 0%;
+padding-top: 30px;
+text-align: center;
+color: rgb(255, 255, 255);
+font-size: 40px;
+
+}
+.text1{
+margin-top: 15px;
+margin-left: 30%;
+color: rgb(255, 255, 255);
+font-size: 25px;
+}
